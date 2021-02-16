@@ -39,7 +39,7 @@ Plug 'inkarkat/vim-mark'
 
 
 " Sessions
-Plug 'junegunn/heytmux', { 'do': 'gem install heytmux' }
+Plug 'junegunn/heytmux'
 
 " Include custom plugins
 try
