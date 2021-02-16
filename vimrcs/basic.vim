@@ -80,6 +80,9 @@ set mat=2
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Clipboard
+set clipboard=unnamedplus,unnamed
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
