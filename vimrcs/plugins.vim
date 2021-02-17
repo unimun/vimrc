@@ -39,7 +39,7 @@ Plug 'inkarkat/vim-mark'
 
 
 " Sessions
-Plug 'junegunn/heytmux'
+Plug 'unimun/heytmux'
 
 " Include custom plugins
 try
