@@ -58,6 +58,7 @@ autocmd! FileType fzf
 autocmd  FileType fzf set noshowmode noruler nonu
 
 nnoremap <silent> <expr> <Leader><Leader> (expand('%') =~ 'NERD_tree' ? "\<c-w>\<c-w>" : '').":Files\<cr>"
+nnoremap <silent> <Leader>\        :History<CR>
 nnoremap <silent> <Leader>C        :Colors<CR>
 nnoremap <silent> <Leader><Enter>  :Buffers<CR>
 nnoremap <silent> <Leader>L        :Lines<CR>
@@ -92,8 +93,8 @@ nmap <leader>cb :TagbarToggle<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => fugitive
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-nnoremap <leader>fb :Gblame<cr>
-nnoremap <leader>fs :Gstatus<cr>
+nnoremap <leader>fb :Git blame<cr>
+nnoremap <leader>fs :Git status<cr>
 nnoremap <leader>fw :Git show<cr>
 nnoremap <leader>fl :Git log --decorate=short<cr>
 nnoremap <leader>ff :Git log --decorate=short -p %<cr>
