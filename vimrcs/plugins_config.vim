@@ -94,7 +94,7 @@ nmap <leader>cb :TagbarToggle<cr>
 " => fugitive
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nnoremap <leader>fb :Git blame<cr>
-nnoremap <leader>fs :Git status<cr>
+nnoremap <leader>fs :Git<cr>
 nnoremap <leader>fw :Git show<cr>
 nnoremap <leader>fl :Git log --decorate=short<cr>
 nnoremap <leader>ff :Git log --decorate=short -p %<cr>
