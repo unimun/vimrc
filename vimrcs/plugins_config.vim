@@ -46,7 +46,7 @@ let g:easy_align_delimiters = {
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => FZF
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let $FZF_DEFAULT_OPTS .= ' --inline-info'
+let $FZF_DEFAULT_OPTS .= ' --inline-info --bind "alt-a:select-all,alt-d:deselect-all"'
 
 command! -nargs=? -complete=dir AF
   \ call fzf#run(fzf#wrap(fzf#vim#with_preview({
