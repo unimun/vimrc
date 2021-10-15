@@ -18,7 +18,11 @@ let g:lightline = {
       \ 'component': {
       \   'readonly': '%{&filetype=="help"?"":&readonly?"🔒":""}',
       \   'modified': '%{&filetype=="help"?"":&modified?"+":&modifiable?"":"-"}',
-      \   'fugitive': '%{exists("*FugitiveHead")?FugitiveHead():""}'
+      \   'fugitive': '%{exists("*FugitiveHead")?FugitiveHead():""}',
+      \   'obsession': '%{ObsessionStatus()}'
+      \ },
+      \ 'tabline': {
+      \   'right': [ ['obsession'] ]
       \ },
       \ 'component_visible_condition': {
       \   'readonly': '(&filetype!="help"&& &readonly)',
