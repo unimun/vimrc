@@ -40,6 +40,7 @@ Plug 'inkarkat/vim-mark'
 
 " Sessions
 Plug 'unimun/heytmux'
+Plug 'tpope/vim-obsession'
 
 " Include custom plugins
 try
