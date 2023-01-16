@@ -71,6 +71,7 @@ endfunction
 
 nnoremap <Leader>rr :call RunCmdAsync()<cr>
 nnoremap <Leader>rb :call RunRegAsync()<cr>
+nnoremap <Leader>rt :let $VIM_DIR=expand('%:p:h')<CR>:below sp<CR>:terminal<CR>acd $VIM_DIR<CR>
 
 " Debugger mode(need to be in local)
 nnoremap <F5> :Step<cr>
