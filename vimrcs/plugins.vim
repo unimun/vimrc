@@ -36,6 +36,7 @@ endif
 Plug 'm-pilia/vim-ccls'
 Plug 'inkarkat/vim-ingo-library'
 Plug 'inkarkat/vim-mark'
+Plug 'github/copilot.vim'
 
 
 " Sessions
